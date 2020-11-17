@@ -37,10 +37,11 @@ const Logout = ( {navigation} ) => {
 }
 
 
+
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Autenticado">
+      <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Autenticado" component={Autenticado} />
       </Stack.Navigator>
